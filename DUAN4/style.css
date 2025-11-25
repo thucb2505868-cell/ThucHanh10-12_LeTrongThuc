@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0e0e0f;
+    color: white;
+}
+
+.Tren {
+    background: #1e1e1e;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tren button {
+    padding: 8px 15px;
+    border: none;
+    background: #0078ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Giua {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+.Trai {
+    width: 260px;
+    background: #171717;
+    padding: 15px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#notesList {
+    list-style: none;
+    padding: 0;
+}
+
+#notesList li {
+    padding: 10px;
+    background: #222;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#notesList li:hover {
+    background: #333;
+}
+
+#displayArea {
+    flex: 1;
+    padding: 20px 40px;
+}
+
+.actions button {
+    padding: 8px 15px;
+    border: none;
+    background: #444;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
